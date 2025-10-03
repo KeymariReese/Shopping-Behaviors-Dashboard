@@ -34,7 +34,7 @@ Power BI → Dashboard design & interactive visuals
 
 Card KPIs (customers, spend, discounts, subscribers, average rating)
 
-Bar/column charts, treemaps, donut/pie charts, funnel charts
+Bar/column charts, treemaps, donut/pie charts, 
 
 Slicers for age groups and product categories
 
@@ -81,7 +81,7 @@ Ranked products within each age group by purchase count
 
 KPIs: customers, spend, discounts, subscriptions, rating average
 
-Visuals: bar/column, donut, treemap, funnel, KPI cards
+Visuals: bar/column, donut, treemap, KPI cards
 
 Interactive slicers for exploring products and age groups
 
