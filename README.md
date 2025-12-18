@@ -1,101 +1,66 @@
-This dashboard visualizes customer shopping patterns, highlighting top-selling products, spending by demographics, discount and promo use, review satisfaction, and seasonal trends. I analyzed purchasing data, created interactive visuals, and built insights into customer behavior and business performance.
+Overview
 
-🗂️ Dataset Used
-Simulated retail transaction data (10k+ rows) across multiple demographics, products, and states
+This project analyzes customer purchase behavior to uncover who is buying, how frequently they buy, and what drives spending, discounts, and subscriptions. The goal is to identify high-value segments, evaluate subscription and discount patterns, and inform marketing and inventory strategies.
 
-Includes:
+The analysis combines transactional-level purchase data with demographic attributes, presented through:
 
-Items purchased across categories (clothing, footwear, accessories, outerwear)
+Power BI dashboard (Shopping Behavior Dashboard.pbix), 
+Summary presentation (Shopping Behavior & Purchase Patterns.pptx), 
+Excel workbook (Shopping Behaviors.xlsx), 
 
-Demographic data (age groups, gender, state)
 
-Purchase details (amount, size, color, shipping type, payment method)
+Business Objectives
 
-Customer engagement (review rating, subscription status, discounts, promo use)
+The analysis addresses key questions about customer behavior:
 
-Seasonal and frequency trends
+Which customer segments drive the most purchases and revenue?
+How do discounts and promotions influence buying behavior across segments?
+What are the purchase frequency patterns, and how do subscriptions impact repeat behavior?
+How do demographic and seasonal factors affect spending?
 
-📌 Project Summary
-Explored customer behavior and retail insights through:
-👕 Top 5 items sold and product category trends
-🌍 Purchases by state and treemap visualization
-🧑‍🤝‍🧑 Gender-based purchase amount and count
-📦 Shipping and payment method distribution
-⭐ Average review rating vs. target satisfaction
-📈 Seasonal purchase patterns and frequency breakdown
 
-🛠️ Tools & Skills Used
+Why this matters:
+Enables targeted promotions to high-value and high-frequency customers, 
+Prevents over-discounting of low-value segments, 
+Optimizes inventory based on seasonal demand and demographic trends, 
+Provides insights for improving customer satisfaction and loyalty
 
-Excel → Initial cleaning and formatting
 
-SQL → Aggregations, grouping, ranking queries
+Dataset Summary
 
-Power BI → Dashboard design & interactive visuals
+Size: ~3,900 customers/purchases
 
-Card KPIs (customers, spend, discounts, subscribers, average rating)
+Customer demographics: Age, gender, location
 
-Bar/column charts, treemaps, donut/pie charts, 
+Purchase attributes: Items purchased, colors, categories, seasons
 
-Slicers for age groups and product categories
+Behavioral indicators: Discount usage, subscription status, review ratings, spend amounts
 
-DAX → Custom metrics (discount usage %, average spend, top N items)
+Data processing: The dataset was managed and transformed using MySQL Workbench 8, prepared for analysis in Excel and Power BI.
 
-Data Storytelling → Insights into customer trends and opportunities
 
-📁 Files Included
 
-README.md – This file
+Analytical Approach
 
-shopping_behavior_dashboard.pbix – Power BI file
+Segmentation & Profiling: Identify high-value, high-frequency, and discount-sensitive customers using demographic and purchase data.
+KPI Calculation: Metrics include total spend, average transaction value, discount utilization, subscription purchases, and customer satisfaction ratings.
+Behavioral Insights: Examine purchase frequency, seasonal trends, product preferences, and demographic spend patterns.
+Visualization & Storytelling: Use Power BI dashboards to provide interactive insights for business decision-making.
 
-MySQL Workbench 8 – Key queries used
 
-shopping_behavior_data.xlsx – Cleaned dataset
+Key Insights
 
-🚀 Learning Goals
+Spending is concentrated among specific age groups and regions.
+Discounts influence purchase decisions but are not the main driver for all segments.
+Subscribers represent a significant and loyal revenue base.
+Customer satisfaction is below the target (average rating 3.75 vs 4.2), highlighting opportunities for improvement.
+Seasonal and demographic trends present targeting opportunities for promotions and inventory planning.
 
-Analyze retail customer behavior and purchasing trends
 
-Use SQL to extract and summarize shopping insights
+Recommendations
 
-Build interactive Power BI dashboards with actionable KPIs
-
-Practice data storytelling to connect insights with business decisions
-
-🔄 Project Workflow
-🧹 Excel Data Cleaning
-
-Removed duplicates, standardized values (e.g., payment methods, age groups)
-
-Created derived fields (price range, age group classification)
-
-🧾 SQL Querying
-
-Identified top products purchased by demographic groups
-
-Calculated most popular states, seasons, and categories
-
-Ranked products within each age group by purchase count
-
-📊 Power BI Dashboard
-
-KPIs: customers, spend, discounts, subscriptions, rating average
-
-Visuals: bar/column, donut, treemap, KPI cards
-
-Interactive slicers for exploring products and age groups
-
-❓ Questions Answered
-👥 Which age groups and genders buy the most and spend the most?
-👜 What are the top-selling items and categories?
-🌍 Which states drive the most purchases?
-⭐ Are customers satisfied compared to the review target?
-💳 What payment and shipping methods are most used?
-📈 How often do discounts and promo codes drive sales?
-
-🙌 Let’s Connect
-If you’re working in retail analytics or enjoy data storytelling, I’d love to connect!
-
-📧 Email: keymari_reese@yahoo.com
-
-💼 LinkedIn: linkedin.com/in/keymari-reese-884315278
+Focus discounts on high-frequency customers to maximize ROI.
+Improve customer experience to boost review ratings and repeat purchases.
+Implement regional campaigns based on state-level spending performance.
+Strengthen subscription incentives for repeat buyers.
+Align inventory planning with seasonal demand and product preferences.
