@@ -39,6 +39,12 @@ Behavioral indicators: Discount usage, subscription status, review ratings, spen
 Data processing: The dataset was managed and transformed using MySQL Workbench 8, prepared for analysis in Excel and Power BI.
 
 
+Tools Used:
+Microsoft Excel, 
+MySQL Workbench 8, 
+PowerBI, 
+Microsoft Powerpoint, 
+
 
 Analytical Approach
 
